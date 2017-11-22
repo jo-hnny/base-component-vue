@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <CalendarDemo/>
+    <VTreeDemo/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
+import CalendarDemo from './components/calendar/CalendarDemo'
+import VTreeDemo from './components/VTree/VTreeDemo'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    CalendarDemo,
+    VTreeDemo
   }
 }
 </script>
